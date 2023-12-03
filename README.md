@@ -2,7 +2,8 @@
 
 ### 1.1 Instalar dependencias
 
-    npm install
+    
+    yarn install
 
 ### 1.2 Creacio de la tabla comercio
 
@@ -75,7 +76,17 @@ Los tokens generados tienen un tiempo de vida de 15 minutos.
 
     URL : https://198vg7790g.execute-api.us-east-1.amazonaws.com/dev/payment-process/v2/charge
 
-### Credenciales de Desarrollo
+
+### 5 Deploy en aws
+  
+      -npm run build
+      -npm serverless deploy
+
+##  6. Serverless Offline
+
+      - npx serverless offline 
+
+### 7. Credenciales de Desarrollo
 
 ```bash
 REDIS_URL="rediss://default:7690760f1e544c0c8f5fcce4a65d0f1c@eu2-witty-snail-30884.upstash.io:30884"
