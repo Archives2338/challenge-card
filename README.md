@@ -6,10 +6,10 @@
 
 ### 1.2 Creacio de la tabla comercio
 
-create table comercio(
-idComercio int auto_increment primary key,
-nombreComercio varchar(50) not null
-)
+      create table comercio(
+      idComercio int auto_increment primary key,
+      nombreComercio varchar(50) not null
+      )
 
 ### 1.3 Pasos finales
 
@@ -63,7 +63,7 @@ Los tokens generados tienen un tiempo de vida de 15 minutos.
     },
     "succes": true
 
-}
+    }
 
 ## 4 . Endpoints - Produccion
 
