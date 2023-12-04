@@ -90,7 +90,7 @@ Los tokens generados tienen un tiempo de vida de 15 minutos.
 
 ```bash
 REDIS_URL="rediss://default:7690760f1e544c0c8f5fcce4a65d0f1c@eu2-witty-snail-30884.upstash.io:30884"
-JWT_SECRET = "culquiSecretKey@$%"
+JWT_SECRET = "challengeCard@$%"
 DB_HOST=localhost
 DB_PORT=3306
 DB_USERNAME=root
